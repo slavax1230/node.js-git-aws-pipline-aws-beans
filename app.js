@@ -11,5 +11,5 @@ app.listen(2000)
 console.log("node.js starting...")
 
 app.use("/", (req,res) => {
-    return res.status(200).json({ message: "Hello from AWS pipline"})
+    return res.status(200).json({ message: "Hello from AWS pipline !!"})
 })
